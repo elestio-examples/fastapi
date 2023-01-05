@@ -1,8 +1,7 @@
 version: '3.3'
 
 services:
-  agent:
-    #image: jenkins/ssh-agent:${SOFTWARE_VERSION_TAG}
+  app:
     build:
       context: .
       dockerfile: ./Dockerfile
