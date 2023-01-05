@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  agent:
+    #image: jenkins/ssh-agent:${SOFTWARE_VERSION_TAG}
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    privileged: true
+    restart: always
+    ports:
+      - '172.17.0.1:20080:80'
