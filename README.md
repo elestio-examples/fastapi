@@ -8,6 +8,11 @@ Click on the button below to deploy this repository with CI/CD on Elestio:
 
 <img src="fastapi.png" alt="fastapi logo" width="100%" />
 
+## Documentation: https://fastapi.tiangolo.com
+
+<br/>
+<br/>
+
 # Steps to clone this repository and run locally
 
 ### Step 1: Clone this repository
