@@ -1,4 +1,4 @@
-# Django on Elestio
+# FastApi on Elestio
 
 This is a minimal example of a FastApi.
 
